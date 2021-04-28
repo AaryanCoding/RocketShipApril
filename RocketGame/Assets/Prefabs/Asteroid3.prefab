@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2416068452691755842}
   - component: {fileID: 2416068452691755843}
   - component: {fileID: 2416068452691755844}
+  - component: {fileID: -5098833137147341200}
   m_Layer: 0
   m_Name: Asteroid3
   m_TagString: Untagged
@@ -214,7 +215,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2416068452691755853}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8f0bfabf363d4ec5993fbd4f9908ad8, type: 3}
   m_Name: 
@@ -222,3 +223,17 @@ MonoBehaviour:
   rigidbody2D: {fileID: 0}
   direction: {x: 1, y: 0}
   relativeToRotation: 1
+--- !u!114 &-5098833137147341200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2416068452691755853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c62d65bd264a4e088b75b7511b9467a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 0}
+  rotationSpeed: 10
