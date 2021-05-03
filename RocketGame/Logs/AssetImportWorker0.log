@@ -15,11 +15,11 @@ C:/Users/aaryan/Documents/GitHub/RocketShipApril/RocketGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52845
+50331
 Successfully changed project path to: C:/Users/aaryan/Documents/GitHub/RocketShipApril/RocketGame
 C:/Users/aaryan/Documents/GitHub/RocketShipApril/RocketGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 112.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,154 +35,333 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003252 seconds.
+Registered in 0.006140 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 102.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.829 seconds
+- Completed reload, in  2.487 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012340 seconds.
+Registered in 0.016210 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 71.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
 Mono: successfully reloaded assembly
-- Completed reload, in  1.521 seconds
+- Completed reload, in  1.745 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.4 MB.
 System memory in use after: 96.3 MB.
 
 Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2627.
-Total: 2.328200 ms (FindLiveObjects: 0.247500 ms CreateObjectMapping: 0.117600 ms MarkObjects: 1.793200 ms  DeleteObjects: 0.169000 ms)
+Total: 3.259300 ms (FindLiveObjects: 0.395800 ms CreateObjectMapping: 0.147000 ms MarkObjects: 2.488600 ms  DeleteObjects: 0.225500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Movement/Move.cs
-  artifactKey: Guid(d926fec57fb4c411a912d607e2822370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Movement/Move.cs using Guid(d926fec57fb4c411a912d607e2822370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd670bb7f1579f5952fd8a78f5c3307f7') in 1.076755 seconds
-  Import took 1.082338 seconds .
+  path: Assets/Prefabs/Alien2.prefab
+  artifactKey: Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Alien2.prefab using Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd819a9a855b87d04db19c75dcfb79f4b') in 0.134929 seconds
+  Import took 0.156251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.965607 seconds.
+  path: Assets/Prefabs/Alien2.prefab
+  artifactKey: Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Alien2.prefab using Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372da3e26dce17cb7bfebc32391e8ba8') in 0.005882 seconds
+  Import took 0.010928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 495.020180 seconds.
+  path: Assets/Prefabs/Alien2.prefab
+  artifactKey: Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Alien2.prefab using Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be11cebfef0c447503b3e2a871d9762') in 0.006724 seconds
+  Import took 0.116851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.776167 seconds.
+  path: Assets/Prefabs/Alien2.prefab
+  artifactKey: Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Alien2.prefab using Guid(a12396cf9f6b35941ad64a19eb27854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d36a5c4d5f7d4b971e9ba695545228a') in 0.005571 seconds
+  Import took 0.359530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.075713 seconds.
+  path: Assets/Images/GameElements
+  artifactKey: Guid(240bf88f01f07b8489934d56b345cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements using Guid(240bf88f01f07b8489934d56b345cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e6b7c1119d9d1799a341b782cd14ed') in 0.030048 seconds
+  Import took 0.035395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.768291 seconds.
+  path: Assets/Images/GameElements/Star.png
+  artifactKey: Guid(c90cad1c9aec2624f82869e907e8ffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Star.png using Guid(c90cad1c9aec2624f82869e907e8ffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c6b6bd38f9bb8e370df97a03a7193') in 0.150360 seconds
+  Import took 0.154064 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013407 seconds.
+Registered in 0.007943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  1.611 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.3 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2631.
-Total: 4.025200 ms (FindLiveObjects: 0.452900 ms CreateObjectMapping: 0.196100 ms MarkObjects: 3.228800 ms  DeleteObjects: 0.144400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 408.305766 seconds.
-  path: Assets/Prefabs/Asteroid3.prefab
-  artifactKey: Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Asteroid3.prefab using Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42ed113999ebcd1183f390ccbcf09ef') in 0.033699 seconds
-  Import took 0.038016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013501 seconds.
-  path: Assets/Prefabs/Asteroid3.prefab
-  artifactKey: Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Asteroid3.prefab using Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42ed113999ebcd1183f390ccbcf09ef') in 0.006400 seconds
-  Import took 0.010432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.069821 seconds.
-  path: Assets/Prefabs/Alien1.prefab
-  artifactKey: Guid(555a21cbf80f4b94193832c25ef9e761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Alien1.prefab using Guid(555a21cbf80f4b94193832c25ef9e761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d31fc8b71b65daa220d02105e66b54') in 0.012691 seconds
-  Import took 0.018032 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012726 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2635.
-Total: 3.970700 ms (FindLiveObjects: 0.465200 ms CreateObjectMapping: 0.183900 ms MarkObjects: 3.067800 ms  DeleteObjects: 0.235400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 493.974881 seconds.
-  path: Assets/Prefabs/Asteroid3.prefab
-  artifactKey: Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Asteroid3.prefab using Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256ae2b82f856fd687c598680c4370fd') in 0.023913 seconds
-  Import took 0.030427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.618007 seconds.
-  path: Assets/Prefabs/UserInterface.prefab
-  artifactKey: Guid(0f6ae8712879c4f40bf6af3fe490badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UserInterface.prefab using Guid(0f6ae8712879c4f40bf6af3fe490badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519bc1acea88e5896c865113d7d9c98f') in 0.031519 seconds
-  Import took 0.037830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012157 seconds.
-  path: Assets/Prefabs/UserInterface.prefab
-  artifactKey: Guid(0f6ae8712879c4f40bf6af3fe490badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UserInterface.prefab using Guid(0f6ae8712879c4f40bf6af3fe490badd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519bc1acea88e5896c865113d7d9c98f') in 0.008871 seconds
-  Import took 0.013901 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009266 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.4 MB.
+System memory in use before: 99.3 MB.
+System memory in use after: 99.3 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2639.
-Total: 3.010000 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.184800 ms MarkObjects: 2.448300 ms  DeleteObjects: 0.142400 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2637.
+Total: 4.514800 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.182600 ms MarkObjects: 3.753800 ms  DeleteObjects: 0.223700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 142.017676 seconds.
+  path: Assets/Images/GameElements/PotionLiquid.png
+  artifactKey: Guid(a0e76a08507ade04a9daa01223e5240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/PotionLiquid.png using Guid(a0e76a08507ade04a9daa01223e5240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d2ccea25b97d90e693725e9f516d2b') in 0.061926 seconds
+  Import took 0.067832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.891777 seconds.
+  path: Assets/Images/GameElements/Shield.png
+  artifactKey: Guid(aed45744de732194fbd6a7410bbb5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Shield.png using Guid(aed45744de732194fbd6a7410bbb5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791e2016d6e826acd956787ea25f3c72') in 0.023821 seconds
+  Import took 0.028459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.270187 seconds.
+  path: Assets/Prefabs/Particles/P_Confetti.prefab
+  artifactKey: Guid(bdacd49febd5543859c09f2cd1ef4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particles/P_Confetti.prefab using Guid(bdacd49febd5543859c09f2cd1ef4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debe13a02d58a935ffcb394fca4cd116') in 0.012780 seconds
+  Import took 0.027497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018116 seconds.
+  path: Assets/Prefabs/Particles/P_Confetti.prefab
+  artifactKey: Guid(bdacd49febd5543859c09f2cd1ef4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particles/P_Confetti.prefab using Guid(bdacd49febd5543859c09f2cd1ef4601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debe13a02d58a935ffcb394fca4cd116') in 0.005499 seconds
+  Import took 0.010654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/_INTERNAL_/Materials/Confetti.mat
+  artifactKey: Guid(af95ba57af0f143c1959c48c9b508c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_INTERNAL_/Materials/Confetti.mat using Guid(af95ba57af0f143c1959c48c9b508c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671fd835874a4be62e100b20e5371805') in 0.071156 seconds
+  Import took 0.075174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.545390 seconds.
+  path: Assets/Prefabs/Particles/P_Explosion.prefab
+  artifactKey: Guid(e61802031429a4e2e8f547dbca07fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particles/P_Explosion.prefab using Guid(e61802031429a4e2e8f547dbca07fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f855b99184d237c1b9ea9fbdd7e2f5') in 0.010016 seconds
+  Import took 0.014483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001632 seconds.
+  path: Assets/Prefabs/Particles/P_Explosion.prefab
+  artifactKey: Guid(e61802031429a4e2e8f547dbca07fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Particles/P_Explosion.prefab using Guid(e61802031429a4e2e8f547dbca07fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f855b99184d237c1b9ea9fbdd7e2f5') in 0.007526 seconds
+  Import took 0.013035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.649032 seconds.
+  path: Assets/Images/Nature/Flower1.png
+  artifactKey: Guid(8d7d45d37f962d14080ef20ecc5eb114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Flower1.png using Guid(8d7d45d37f962d14080ef20ecc5eb114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2ec72b21c29f521132e888b68038d1') in 0.026282 seconds
+  Import took 0.035302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.972635 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abf6c35b888224aff8133dc72b68f36') in 0.005324 seconds
+  Import took 0.010829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.614824 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56ddec4143f16598af3e5e513937106') in 0.007593 seconds
+  Import took 0.013684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.451322 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac93ad3b248d5992850aaf3a59278df') in 0.007861 seconds
+  Import took 0.021922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.128048 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924b878530662f582daf4c1f14676df2') in 0.006160 seconds
+  Import took 0.011102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.747157 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc875519d0e02d15e459d4f88a8d65a') in 0.006564 seconds
+  Import took 0.012686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.658819 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd677c2b5171f80022d4af71ffb620050') in 0.006647 seconds
+  Import took 0.013668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.935738 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e41d1c65f325a3964043688a8008fbb') in 0.005951 seconds
+  Import took 0.011273 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 3.851400 ms (FindLiveObjects: 0.631500 ms CreateObjectMapping: 0.297800 ms MarkObjects: 2.746500 ms  DeleteObjects: 0.174000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.593419 seconds.
+  path: Assets/Prefabs/Star.prefab
+  artifactKey: Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Star.prefab using Guid(7682f6ea6dc2aaa4b980380269b7b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c23fb84a6c98245cb02d4c10f54c7fa') in 0.019899 seconds
+  Import took 0.029651 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 3.786300 ms (FindLiveObjects: 0.434200 ms CreateObjectMapping: 0.182100 ms MarkObjects: 3.034600 ms  DeleteObjects: 0.133400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.398328 seconds.
+  path: Assets/Prefabs/Asteroid3.prefab
+  artifactKey: Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid3.prefab using Guid(f6c30c35578c3834fbccea4417b14d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ba3c71e34ebfceb98a8427cbbeafcf') in 0.107863 seconds
+  Import took 0.117402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 795.910231 seconds.
+  path: Assets/Prefabs/Alien1.prefab
+  artifactKey: Guid(555a21cbf80f4b94193832c25ef9e761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Alien1.prefab using Guid(555a21cbf80f4b94193832c25ef9e761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433a744ddcc2c889ca106325f326555b') in 0.016433 seconds
+  Import took 0.021489 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.068214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2693.
+Total: 2.882400 ms (FindLiveObjects: 0.528400 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.125500 ms  DeleteObjects: 0.112300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\aaryan\Documents\GitHub\RocketShipApril\RocketGame\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.7 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 3.130700 ms (FindLiveObjects: 0.387400 ms CreateObjectMapping: 0.212400 ms MarkObjects: 2.384200 ms  DeleteObjects: 0.145800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
